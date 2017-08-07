@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync ./src/ ec2-user@localhost:/var/www --include=index.php
+rsync ./src/* ec2-user@localhost:/var/www/
