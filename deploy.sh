@@ -1,2 +1,3 @@
 #!/bin/sh
-rsync ./src/* ec2-user@localhost:/var/www/
+composer install
+rsync ./web/* ec2-user@localhost:/var/www/
